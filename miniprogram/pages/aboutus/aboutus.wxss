@@ -1,0 +1,22 @@
+.aboutus{
+  width: 90%;
+  font-size: 15px;
+  margin-left: 15px;
+}
+.c0{
+  font-size: 18px;
+}
+.c1{
+    text-indent: 2em;
+}
+.c2{
+    text-indent: 2em;
+}
+.c3{
+  margin-top: 12%;
+  font-size: 20px;
+  cursor: pointer;
+}
+.c4{
+  font-size: 20px;
+}

@@ -1,0 +1,36 @@
+<form bindsubmit="add">  
+   <view class="inputView" style="margin-top:5%">
+     <input  class='input' type='text' placeholder='请输入草坪名称'  bindinput="cpname"/>
+   </view>
+   <view class="inputView" style="margin-top:5%">
+     <input  class='input' type='text' placeholder='请输入草坪地址'  bindinput="cpads"/>
+   </view>
+   <view class="inputView" style="margin-top:5%">
+     <input  class='input' type='text' placeholder='请输入草坪价格'  bindinput="cpprice" maxlength="15"/>
+    </view>
+    <view class="inputViews" style="margin-top:5%">
+        <textarea row="2" cols="10" placeholder="介绍你的草坪" maxlength="200" bindinput="cpmsg"></textarea>
+     </view>
+<!-- <图片上传> -->
+<view class='pages'>
+ <view class='top'><text class='top_name'>草坪图片：</text></view>
+ <!-- 图片 -->
+ <view class="images_box">
+  <block wx:key="imgbox" wx:for="{{imgbox}}">
+   <view class='img-box'>
+    <image class='img' src='{{item}}'></image>
+    <view class='img-delect' data-deindex='{{index}}' bindtap='imgDelete1'>
+     <image class='img' src='../../images/delete.png'></image>  
+    </view>
+   </view>
+  </block>
+  <view class='img-box' bindtap='addPic1' wx:if="{{imgbox.length<4}}">
+   <image class='img' src='../../images/touxiang.png'></image>  
+  </view>
+ </view>
+</view>
+<button class='buttonLogin' form-type="submit">提交</button>
+</form> 
+
+
+

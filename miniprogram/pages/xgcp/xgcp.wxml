@@ -1,0 +1,29 @@
+<view  wx:for="{{cp}}">
+<view class="inputView" style="margin-top:5%">
+    <input class='input' disabled="disabled" value="{{item._id}}" type='text' placeholder='请输入草坪id'/>
+  </view>
+  <view class="inputView" style="margin-top:5%">
+    <input class='input' value="{{item.cpname}}" type='text' placeholder='请输入草坪名称' bindinput="cpname" />
+  </view>
+  <view class="inputView" style="margin-top:5%">
+    <input class='input' value="{{item.cpads}}" type='text' placeholder='请输入草坪地址' bindinput="cpads" />
+  </view>
+  <view class="inputView" style="margin-top:5%">
+    <input class='input' value="{{item.cpprice}}" type='text' placeholder='请输入草坪价格' bindinput="cpprice" maxlength="15" />
+  </view>
+  <view class="inputViews" style="margin-top:5%">
+    <textarea row="2" cols="10" placeholder="介绍你的草坪" maxlength="200" bindinput="cpmsg" value="{{item.cpmsg}}"></textarea>
+  </view>
+  <!-- <图片上传> -->
+  <view class='pages'>
+    <view class="images_box">
+      <block>
+        <view class='img-box' wx:for="{{item.imgbox}}" bindtap="addPic1">
+          <image class='img' src='{{item}}'></image>
+        </view>
+      </block>
+    </view>
+  </view>
+  <button class="xgbtn" data-id="{{item._id}}" bindtap="updsward">修改</button>
+</view>
+

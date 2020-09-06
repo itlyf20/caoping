@@ -1,0 +1,18 @@
+<form bindsubmit="addsp">  
+   <view class="inputView" style="margin-top:5%">
+     <input  class='input' type='text' placeholder='请输入商品名称'  bindinput="spname"/>
+   </view>
+    <view class="inputView" style="margin-top:5%">
+     <input  class='input' type='text' placeholder='请输入商品价格'  bindinput="spprice"/>
+   </view>
+   <view class="imgbtn">
+     <button bindtap="imgbtn">点击上传你的商品图片</button>
+     <block wx:if="{{img}}">
+        <image src="{{img}}"></image>
+     </block>
+   </view>
+     <button class='buttonLogin' form-type="submit">提交</button>
+</form> 
+
+
+

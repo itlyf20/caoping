@@ -1,0 +1,7 @@
+<view class="container">
+    <view class="content">
+      <view class="t">申请获取以下权限</view>
+      <text>获取你的公开信息(昵称，头像等)</text>
+    </view>
+    <button class="bottom" open-type="getUserInfo" bindgetuserinfo="bindgetUserInfo" type="primary">授权登录</button>
+</view>

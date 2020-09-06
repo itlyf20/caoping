@@ -1,0 +1,13 @@
+<view wx:for="{{ylmsg}}" class="cp">
+    <navigator url="../../pages/ylmsg/ylmsg?openid={{item._openid}}">
+      <view class="cjmsg">商家信息</view>
+      <view class="msg">
+        <view>姓名：{{item.name}}</view>
+        <view>身份证号：{{item.idcard}}</view>
+        <view>店铺/公司名称：{{item.gongsi}}</view>
+      </view>
+      </navigator>
+      <view style="font-size:18px;" bindtap="tel" class="tel" data-phone="{{item.phone}}">电话：{{item.phone}}</view>
+      <view style="font-size:18px;" bindtap="ads" class="ads">商家地址：{{item.address}}</view>
+</view>
+

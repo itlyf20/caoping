@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/swardmsg/swardmsg",
+    "pages/gard/gard",
+    "pages/logistics/logistics",
+    "pages/addmsg/addmsg",
+    "pages/managedp/managedp",
+    "pages/leavingmsg/leavingmsg",
+    "pages/aboutus/aboutus",
+    "pages/serch/serch",
+    "pages/sjshenqing/sjshenqing",
+    "pages/registcp/registcp",
+    "pages/registyl/registyl",
+    "pages/registwl/registwl",
+    "pages/addyl/addyl",
+    "pages/addcp/addcp",
+    "pages/ylmsg/ylmsg",
+    "pages/xgsward/xgsward",
+    "pages/xggard/xggard",
+    "pages/xgcp/xgcp",
+    "pages/xgyl/xgyl",
+    "pages/lawnbase/lawnbase"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3300FF",
+    "navigationBarTitleText": "wechat",
+    "navigationBarTextStyle": "white"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#FF0000",
+    "backgroundColor": "#e0e0e0",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/shouye.png",
+        "selectedIconPath": "images/shouye_d.png"
+      },
+      {
+        "pagePath": "pages/serch/serch",
+        "text": "搜索",
+        "iconPath": "images/sousuo.png",
+        "selectedIconPath": "images/sousuo_d.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/yonghu.png",
+        "selectedIconPath": "images/yonghu_d.png"
+      }
+    ]
+  }
+}

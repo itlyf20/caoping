@@ -1,0 +1,12 @@
+  <view class="f1" bindtap="addcp">
+      <image src="../../images/jidi.png" class="im1"></image>
+      <text class="gn">添加草坪基地</text>
+      <image src="../../images/jiantou_right.png" class="j1"></image>
+  </view>
+  <view class="f1"  bindtap="addyl">
+      <image src="../../images/yuanlin.png" class="im1"></image>
+      <text class="gn">添加园林用品</text>
+      <image src="../../images/jiantou_right.png" class="j1"></image>
+  </view>
+
+

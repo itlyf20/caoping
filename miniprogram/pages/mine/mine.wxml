@@ -1,0 +1,43 @@
+<view class="user">
+    <image src="{{userInfo.avatarUrl}}"></image>
+    <text>{{userInfo.nickName}}</text>
+</view>
+<!-- 底部菜单 -->
+ <view class="board">
+     <navigator url="../../pages/sjshenqing/sjshenqing">
+    <view class="board_item">
+      <image src="../../images/shenqings.png"></image>
+      <text>申请成为商家</text>
+      <image src="../../images/jiantou_right.png" mode="aspectFill"></image>
+    </view>
+    </navigator>
+    <navigator url="../../pages/addmsg/addmsg">
+    <view class="board_item">
+      <image src="../../images/add.png"></image>
+      <text>添加店铺</text>
+      <image src="../../images/jiantou_right.png" mode="aspectFill"></image>
+    </view>
+    </navigator>
+    <navigator url="../../pages/managedp/managedp">
+      <view class="board_item" bindtap="dpguanli">
+        <image src="../../images/shenqing.png"></image>
+        <text>管理店铺</text>
+        <image src="../../images/jiantou_right.png" mode="aspectFill"></image>
+      </view>
+    </navigator>
+    <navigator url="../../pages/leavingmsg/leavingmsg">
+    <view class="board_item">
+      <image src="../../images/xitongmsg.png"></image>
+      <text>留言反馈</text>
+      <image src="../../images/jiantou_right.png" mode="aspectFill"></image>
+    </view>
+    </navigator>
+    <navigator url="../../pages/aboutus/aboutus">
+    <view class="board_item">
+      <image src="../../images/guanyuwomen.png"></image>
+      <text>关于我们</text>
+      <image src="../../images/jiantou_right.png" mode="aspectFill"></image>
+    </view>
+    </navigator>
+  </view>
+

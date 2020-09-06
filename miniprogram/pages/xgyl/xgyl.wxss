@@ -1,0 +1,41 @@
+.img-box{
+ border: 5rpx;
+ border-style: solid;
+ border-color: rgba(0, 0, 0, 0.452);
+ width: 180px;
+ height: 180px;
+ margin-left: 35px;
+ margin-top: 20rpx;
+ margin-bottom: 20rpx;
+}
+.img-box image{
+  width: 180px;
+  height:180px;
+}
+.input{
+    padding-left: 10rpx;
+    height: 80rpx;
+}
+ 
+.inputView{
+    display: flex;
+    flex: 1;
+    border:  1rpx solid #66c5ab;  
+    border-radius: 30rpx;         
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15rpx;
+}
+.inputViews{
+    display: flex;
+    flex: 1;
+    border:  1rpx solid #66c5ab;          
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15rpx;
+}
+.xgbtn{
+  width: 80%;
+  background-color: green;
+  margin-top: 40px;
+}

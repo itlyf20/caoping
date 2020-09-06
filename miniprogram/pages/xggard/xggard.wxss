@@ -1,0 +1,30 @@
+.input{
+    padding-left: 10rpx;
+    height: 80rpx;
+}
+ 
+.inputView{
+    display: flex;
+    flex: 1;
+    border-radius: 30rpx;         
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15rpx;
+}
+.imgbtn image{
+  width: 80%;
+  height: 170px;
+  margin-left: 8%;
+  margin-right: 5%;
+  margin-top: 10px;
+}
+.xgbtn{
+  width: 80%;
+  background-color: green;
+  margin-top: 20px;
+}
+.scbtn{
+  width: 80%;
+  background-color: red;
+  margin-top: 20px;
+}

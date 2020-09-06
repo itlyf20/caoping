@@ -1,0 +1,16 @@
+<view wx:key="{{yl}}"  wx:for="{{yl}}">
+ <view class="inputView" style="margin-top:5%">
+    <input class='input' disabled="disabled" value="{{item._id}}" type='text' placeholder='请输入草坪id'/>
+  </view>
+   <view class="inputView" style="margin-top:5%">
+    <input class='input' value="{{item.spname}}" type='text' placeholder='请输入园林名称' bindinput="spname" />
+  </view>
+    <view class="inputView" style="margin-top:5%">
+    <input class='input' value="{{item.spprice}}" type='text' placeholder='请输入园林名称' bindinput="spprice" />
+  </view>
+  <view class='img-box' bindtap="imgs">
+       <image class='img' src='{{item.imgUrl}}'></image>
+  </view>
+  <button class="xgbtn" data-id="{{item._id}}" bindtap="updgard">修改</button>
+</view>
+

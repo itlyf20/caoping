@@ -1,0 +1,20 @@
+<view class="slide" wx:for="{{cp}}">
+  <!--图片轮播显示-->
+    <swiper indicator-dots="true" autoplay="true" interval="4000" duration="1000">
+      <block wx:for="{{item.imgbox}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image"/>
+        </swiper-item>
+      </block>
+    </swiper>
+      <view class="cpxinxi">
+        <text style="font-size:25px;">草坪名称：{{item.cpname}}</text>
+      </view>
+       <view class="cpxinxi">
+        <text style="font-size:18px;">草坪价格：{{item.cpprice}}</text>
+      </view>
+      <view class="cpxinxis" bindtap="ads">
+        <text style="font-size:18px;">草坪地址：{{item.cpads}}</text>
+      </view>
+      <view style="font-size:18px;">草坪信息：{{item.cpmsg}}</view>
+</view>

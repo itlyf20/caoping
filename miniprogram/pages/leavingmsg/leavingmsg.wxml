@@ -1,0 +1,6 @@
+<form bindsubmit="tijiao">
+<view class="content">
+    <textarea rows="3" cols="20" placeholder="请输入你要反馈的内容" bindinput="fankui"></textarea>
+</view>
+<button class="zxbtn" form-type="submit">提交</button>
+</form>

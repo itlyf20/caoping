@@ -1,0 +1,10 @@
+  <view class="f1" bindtap="cp">
+      <image src="../../images/jidi.png" class="im1"></image>
+      <text class="gn">管理草坪基地</text>
+      <image src="../../images/jiantou_right.png" class="j1"></image>
+  </view>
+  <view class="f1"  bindtap="ylmsg">
+      <image src="../../images/yuanlin.png" class="im1"></image>
+      <text class="gn">管理园林店铺</text>
+      <image src="../../images/jiantou_right.png" class="j1"></image>
+  </view>

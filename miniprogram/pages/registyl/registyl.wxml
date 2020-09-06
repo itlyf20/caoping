@@ -1,0 +1,46 @@
+<form bindsubmit="reigst">  
+<view class="inputView" style="margin-top:5%">
+     <input  class='input' type='text' placeholder='请输入你的姓名'  bindinput="name" maxlength="11"/>
+   </view>
+   <view class="inputView" style="margin-top:5%">
+     <input  class='input' type='text' placeholder='请输入你的公司或店铺名称'  bindinput="gongsi"/>
+   </view>
+   <view class="inputView" style="margin-top:5%">
+     <input  class='input' type='text' placeholder='请输入手机号'  bindinput="phone" maxlength="11"/>
+   </view>
+    <view class="inputView" style="margin-top:5%">
+     <input  class='input' type='text' placeholder='请输入身份证号'  bindinput="idcard" maxlength="18"/>
+   </view>
+   <view class="inputView" style="margin-top:5%">
+     <input  class='input' type='text' placeholder='请输入你的地址'  bindinput="address" maxlength="18"/>
+   </view>
+   <view class="msg">
+    <view class="img" bindtap="sfz1">
+         <block wx:if="{{img1==false}}">
+          <text>点击上传身份证件照正面</text>
+        </block>
+        <block wx:else>
+          <image src="{{img1}}" class="i"></image>
+        </block>
+    </view>
+      <view class="img" bindtap="sfz2">
+       <block wx:if="{{img2==false}}">
+        <text>点击上传身份证国徽面</text>
+        </block>
+        <block wx:else>
+          <image src="{{img2}}" class="i"></image>
+        </block>
+      </view>
+       <view class="img" bindtap="sfz3">
+       <block wx:if="{{img3==false}}">
+        <text>点击上传营业执照</text>
+        </block>
+        <block wx:else>
+          <image src="{{img3}}" class="i"></image>
+        </block>
+      </view>
+    </view>
+    <view>
+    <button class='buttonLogin' form-type="submit">提交</button>
+    </view>
+</form> 

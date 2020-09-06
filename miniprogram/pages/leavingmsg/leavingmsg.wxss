@@ -1,0 +1,9 @@
+.content{
+  border: 1px solid gray;
+}
+
+.zxbtn{
+  background-color: green;
+  width: 80%;
+  margin-top: 8%;
+}

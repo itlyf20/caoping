@@ -1,0 +1,65 @@
+ <view class="slide">
+  <!--图片轮播显示-->
+    <swiper indicator-dots="true" autoplay="true" interval="4000" duration="1000">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+<view class='topTabSwiper'>
+    <view class='tab  {{currentData == 0 ? "tabBorer" : ""}}'  data-current = "0" bindtap='checkCurrent'>分类</view>
+    <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}'  data-current = "1" bindtap='checkCurrent'>推荐</view>
+</view>
+<swiper current="{{currentData}}" class='swiper' style="height:600px;" duration="300" bindchange="bindchange">
+<!-- 分类 -->
+  <swiper-item>
+    <view class="fenlei">
+        <navigator url="../../pages/lawnbase/lawnbase">
+          <view class="f1">
+              <image src="../../images/jidi.png" class="im1"></image>
+              <text class="gn">草坪基地</text>
+              <image src="../../images/jiantou_right.png" class="j1"></image>
+          </view>
+        </navigator>
+        <navigator url="../../pages/gard/gard">
+          <view class="f1">
+              <image src="../../images/yuanlin.png" class="im1"></image>
+              <text class="gn">园林用品</text>
+              <image src="../../images/jiantou_right.png" class="j1"></image>
+          </view>
+        </navigator>
+        <navigator url="../../pages/logistics/logistics">
+          <view class="f1">
+              <image src="../../images/wuliu.png" class="im1"></image>
+              <text class="gn">物流信息</text>
+              <image src="../../images/jiantou_right.png" class="j1"></image>
+          </view>
+        </navigator>
+      </view>
+  </swiper-item> 
+  <!-- 推荐 -->
+  <swiper-item>
+       <view class="tuijian">
+        <view class="div1" wx:for="{{cpmsg}}" wx:for-item="item" bindtap="caopingxq">
+          <view  class="iv1">
+            <image src="{{item.img3}}" class="img1"></image>
+          </view>
+          <view class="iv2">
+            <text class="name">{{item.gongsi}}</text>
+            <view>
+              <image src="../../images/pingjia_d.png" class="pingjia"></image>
+              <image src="../../images/pingjia_d.png" class="pingjia"></image>
+              <image src="../../images/pingjia_d.png" class="pingjia"></image>
+              <image src="../../images/pingjia_d.png" class="pingjia"></image>
+              <image src="../../images/pingjia_d.png" class="pingjia"></image>
+            </view>
+            <view>{{item.phone}}</view>
+            <view style="font-size:15px" class="address">商家地址：{{item.cpaddress}}</view>
+          </view>
+        </view>
+    </view>
+  </swiper-item>
+</swiper>
+

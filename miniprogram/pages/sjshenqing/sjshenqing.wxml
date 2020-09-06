@@ -1,0 +1,22 @@
+    <navigator url="../../pages/registcp/registcp">
+    <view class="f1" bindtap="cpregist">
+        <image src="../../images/jidi.png" class="im1"></image>
+        <text class="gn">草坪注册</text>
+        <image src="../../images/jiantou_right.png" class="j1"></image>
+    </view>
+    </navigator>
+    <navigator url="../../pages/registyl/registyl">
+     <view class="f1" bindtap="ylregist">
+      <image src="../../images/yuanlin.png" class="im1"></image>
+      <text class="gn">园林用品注册</text>
+      <image src="../../images/jiantou_right.png" class="j1"></image>
+      </view>
+     </navigator>
+     <navigator url="../../pages/registwl/registwl">
+     <view class="f1" bindtap="wlregist">
+        <image src="../../images/wuliu.png" class="im1"></image>
+        <text class="gn">物流注册</text>
+        <image src="../../images/jiantou_right.png" class="j1"></image>
+      </view>
+    </navigator>
+

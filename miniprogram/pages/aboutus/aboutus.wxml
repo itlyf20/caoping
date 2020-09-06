@@ -1,0 +1,22 @@
+<view class="aboutus">
+<view class="c0">深圳市倍安鑫商务咨询有限公司是一家专门致力于商标代理、知识产权代理、计算机软件及信息系统软件开发的技术咨询类企业。
+本公司开发的小程序“草坪直搜”，解决了供需双方的信息对通痛点，让草坪供求信息更透明、更直接。</view>
+<view class="c1">
+一、园林施工企业：
+1、能快速的找到距离自己工地最近的草坪种植基地；
+2、能快速的找到价格最便宜的草坪种植基地；
+3、直接跟草坪种植企业或种植户联系，减少中间环节。
+</view>
+<view class="c2">
+二、草坪种植企业及种植农户：
+1、有一个直观的展示自己草坪基地的平台；
+2、客户能直接联系到自己，减少草坪经纪人的价格盘剥；
+3、积累和增加客户数量。
+</view>
+
+<view class="c3" bindtap="tel">本小程序咨询电话：18679185798</view>
+<view class="c4">联系人：邓先生</view>
+<view>
+<image src="../../images/erweima.png" style="width:120px;height:120px;margin-top:10px;margin-left:20px;"></image>
+</view>
+</view>

@@ -1,0 +1,96 @@
+.tab{float: left; width: 50%;text-align: center;padding: 10rpx 0; }
+.topTabSwiper{border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; zoom: 1;}
+.topTabSwiper:after{content: ""; clear: both;display: block;}
+.tabBorer{border-bottom: 1px solid #f00; color: #f00;}
+.swiper{width: 100%;}
+.swiper_con{
+  padding: 20px;
+  margin-top: 10px;
+  -moz-box-shadow:-10px 2px 20px #333333; 
+  -webkit-box-shadow:-10px 2px 20px #333333;
+  box-shadow:-10px 2px 20px #333333;
+  cursor: pointer;
+  flex: 1;
+}
+.swiper_con view{
+  font-size: 14px;
+}
+.slide image{
+  width: 100%;
+}
+.div1{
+  width: 100%;
+  margin-top: 15px;
+  border-bottom: 1px solid gray;
+  height: 110px;
+}
+.to_go{
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 3px;
+  left: 18%;
+}
+.km{
+  position: relative;
+  left: 18%;
+  top: -3px;
+}
+.pingjia{
+  width: 20px;
+  height: 20px;
+}
+.name{
+  font-size: 20px;
+}
+.address{
+  font-size: 14px;
+}
+.iv2{
+  width: 70%;
+  position: fixed;
+  margin-left: 25%;
+  margin-top: -88px;
+}
+.img1{
+  width: 20%;
+  height: 80px;
+  cursor: pointer;
+  margin-left: 12px;
+}
+
+.f1{
+  width: 100%;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.im1{
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 4px;
+}
+.gn{
+  position: relative;
+  top: -9px;
+  font-size: 20px;
+  left: 13px;
+}
+.j1{
+  width: 25px;
+  height: 25px;
+  position: fixed;
+  margin-top: 10px;
+  left: 90%;
+}
+.content{
+  width: 100%;
+  margin-top: 15px;
+  border: 1px solid gray;
+}
+.zxbtn{
+  background-color: green;
+  width: 80%;
+  margin-top: 15px;
+}

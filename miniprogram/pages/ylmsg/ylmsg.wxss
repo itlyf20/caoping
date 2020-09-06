@@ -1,0 +1,15 @@
+.img{
+  width: 50%;
+  height: 160px;
+}
+.slide{
+  line-height: 40px;
+  margin-left: 70px;
+  margin-top: 15px;
+}
+.content{
+  font-size: 20px;
+}
+.r{
+  color: red;
+}

@@ -1,0 +1,13 @@
+<view class="slide">
+    <view wx:for="{{ylmsg}}"  class="c">
+      <view>
+          <image src="{{item.imgUrl}}" class="img"/>
+      </view>
+        <view class="content">
+          <view>商品名称：{{item.spname}}</view>
+          <view class="r">商品价格：{{item.spprice}}</view>
+        </view>
+      </view>
+  </view>
+
+

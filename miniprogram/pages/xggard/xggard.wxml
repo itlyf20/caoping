@@ -1,0 +1,16 @@
+<form bindsubmit="addsp" wx:for="{{yl}}">  
+   <view class="inputView" style="margin-top:5%">
+     <view style="font-size:20px">商品名称：{{item.spname}}</view>
+   </view>
+    <view class="inputView" style="margin-top:5%">
+      <view>商品价格：{{item.spprice}}</view>
+   </view>
+   <view class="imgbtn">
+     <block>
+        <image src="{{item.imgUrl}}"></image>
+     </block>
+   </view>
+      <button class="xgbtn" data-id="{{item._id}}" bindtap="updyl">修改</button>
+      <button class="scbtn" data-id="{{item._id}}" bindtap="delyl">删除</button>
+</form> 
+

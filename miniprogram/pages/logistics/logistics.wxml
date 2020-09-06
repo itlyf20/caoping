@@ -1,0 +1,11 @@
+<view wx:for="{{wlmsg}}" class="cp" bindtap="information">
+      <view class="cjmsg">商家信息</view>
+      <view class="msg">
+        <view>姓名：{{item.name}}</view>
+        <view>身份证号：{{item.idcard}}</view>
+        <view>店铺/公司名称：{{item.gsname}}</view>
+        <view style="font-size:18px;" class="tel" bindtap="tel" data-phone="{{item.phone}}">电话：{{item.phone}}</view>
+        <view style="font-size:18px;" class="address" bindtap="address">地址：{{item.wlads}}</view>
+      </view>
+</view>
+

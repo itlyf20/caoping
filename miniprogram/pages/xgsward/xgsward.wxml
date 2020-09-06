@@ -1,0 +1,24 @@
+<view wx:for="{{cp}}">
+  <view class="inputView" style="margin-top:5%">
+    <view class='input' style="font-size:20px;">草坪名称：{{item.cpname}}</view>
+  </view>
+  <view class="inputView" style="margin-top:5%">
+    <view class='input'>草坪地址：{{item.cpads}}</view>
+  </view>
+  <view class="inputView" style="margin-top:5%">
+    <view class='input'>草坪价格：{{item.cpprice}}</view>
+  </view>
+  <view class="inputViews" style="margin-top:5%">
+   <view class='input'>草坪信息：{{item.cpmsg}}</view>
+  </view>
+  <!-- <图片上传> -->
+    <view class="images_box">
+      <block>
+        <view class='img-box' wx:for="{{item.imgbox}}" bindtap="addPic1">
+          <image class='img' src='{{item}}'></image>
+        </view>
+      </block>
+    </view>
+  <button class="xgbtn" data-id="{{item._id}}" bindtap="updsward">修改</button>
+  <button class="scbtn" data-id="{{item._id}}" bindtap="delsward">删除</button>
+</view>

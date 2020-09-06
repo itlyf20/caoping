@@ -1,0 +1,12 @@
+<view wx:for="{{cpmsg}}" class="cp">
+      <navigator url="../../pages/swardmsg/swardmsg?openid={{item._openid}}">
+      <view class="cjmsg">商家信息</view>
+      <view class="msg">
+        <view>姓名：{{item.name}}</view>      
+        <view>身份证号：{{item.idcard}}</view>
+        <view>店铺/公司名称：{{item.gongsi}}</view>
+      </view>
+      </navigator>
+      <view style="font-size:18px" data-phone="{{item.phone}}" class="tel" bindtap="tel">电话：{{item.phone}}</view>
+      <view style="font-size:18px" class="address" bindtap="address">地址：{{item.cpaddress}}</view>
+</view>

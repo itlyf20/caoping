@@ -1,0 +1,19 @@
+.cp{
+  border: 1px solid gray;
+  line-height: 30px;
+}
+.msg{
+  margin-left: 5px;
+}
+.cjmsg{
+  font-size: 25px;
+  color: green;
+}
+.tel{
+  cursor: pointer;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.address{
+  cursor: pointer;
+}

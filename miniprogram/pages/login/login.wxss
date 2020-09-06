@@ -1,0 +1,16 @@
+.content{
+  margin-top: 135px;
+  line-height: 40px;
+}
+.t{
+  font-size: 20px;
+}
+.content text{
+  color: gray;
+  font-size: 20px;
+}
+.bottom{
+  border-radius: 2em;
+  width: 80%;
+  margin-top: 40px;
+}

@@ -1,0 +1,37 @@
+.input{
+    padding-left: 10rpx;
+    height: 80rpx;
+}
+ 
+.inputView{
+    display: flex;
+    flex: 1;
+    border:  1rpx solid #66c5ab;  
+    border-radius: 30rpx;         
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15rpx;
+}
+.imgbtn button{
+  background-color: aqua;
+}
+.imgbtn{
+  border: 1px solid #66c5ab;
+  height: 240px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 15px;
+}
+.imgbtn image{
+  width: 80%;
+  height: 170px;
+  margin-left: 8%;
+  margin-right: 5%;
+  margin-top: 10px;
+}
+.buttonLogin{
+  width: 80%;
+  background-color: green;
+  position: relative;
+  top: 20px;
+}

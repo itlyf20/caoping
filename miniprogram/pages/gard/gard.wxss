@@ -1,0 +1,25 @@
+.img image{
+  width: 32%;
+  height: 100px;
+  margin-left: 4px;
+  margin-top: 5px;
+}
+.cp{
+  line-height: 30px;
+  border: 1px solid gray;
+}
+.msg{
+  margin-left: 5px;
+  line-height: 30px;
+}
+.cjmsg{
+  font-size: 25px;
+  color: green;
+}
+.ads{
+  cursor: pointer;
+}
+.tel{
+  cursor: pointer;
+  border: 1px solid gray;
+}

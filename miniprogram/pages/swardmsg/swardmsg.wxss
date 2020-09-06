@@ -1,0 +1,11 @@
+.slide{
+  line-height: 30px;
+  border: 1px solid gray;
+}
+.slide-image{
+  width: 100%;
+}
+.cpxinxis{
+  cursor: pointer;
+  border: 1px solid gray;
+}
